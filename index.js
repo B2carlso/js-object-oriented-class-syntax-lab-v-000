@@ -1,5 +1,5 @@
 class BoardMember {
-  constructor(name, homeState, training) {
+  constructor(name, homeState, trianing) {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
@@ -18,7 +18,7 @@ class BoardMember {
   }
 
   releasePressStatement() {
-    return "You will see great things from Scuber."
+    return "You will see great things from Scruber."
   }
 
   sayHi() {
